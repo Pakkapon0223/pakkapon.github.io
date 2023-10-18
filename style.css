@@ -58,4 +58,14 @@ main{
 
 main img{
     width: 100%;
+    margin-top: 10px;
+}
+
+main div{
+    padding: 20px;
+    text-align: center;
+}
+
+main div p{
+    margin-top: 10px;
 }
