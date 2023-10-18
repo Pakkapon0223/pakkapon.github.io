@@ -7,13 +7,13 @@
 nav{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
 }
 
 .logo a{
     text-decoration: none;
-    color: yellowgreen;
+    color: orange;
     font-weight: bold;
     font-size: 18px;
 }
@@ -30,4 +30,15 @@ nav{
 .menu li a{
     text-decoration: none;
     color: palevioletred;
+}
+
+.banner {
+    background-color: #FFC547;
+    color: #e55a61;
+    height: 400px;
+}
+
+.banner-info img {
+    width: 300px;
+    border-radius: 100%;
 }
