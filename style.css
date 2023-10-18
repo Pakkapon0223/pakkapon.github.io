@@ -46,6 +46,18 @@ nav{
     
 }
 
+.banner-info2 img{
+    width: 200px;
+    border-radius: 100%;
+    align-items: start;
+}
+
+.banner-info3 img{
+    width: 200px;
+    border-radius: 100%;
+    align-items: end;
+}
+
 .banner-info img {
     width: 300px;
     border-radius: 100%;
