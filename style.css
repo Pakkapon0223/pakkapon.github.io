@@ -51,6 +51,10 @@ nav{
     border-radius: 100%;
 }
 
+.banner-info h1{
+    margin-top: 10px;
+}
+
 main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -59,6 +63,7 @@ main{
 main img{
     width: 100%;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 main div{
@@ -68,4 +73,11 @@ main div{
 
 main div p{
     margin-top: 10px;
+}
+
+footer{
+    background-color: aquamarine;
+    color: black;
+    padding: 20px;
+    text-align: center;
 }
