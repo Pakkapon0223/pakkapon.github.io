@@ -4,24 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 
-body{
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: "Kanit",sans-serif;
-    }
-    
-
 }
 nav{
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
     padding: 10px;
 }
 
-.logo {
+.head {
     text-decoration: none;
     color: orange;
     font-weight: bold;
@@ -55,16 +45,8 @@ nav{
     text-align: center;
 }
 
-.banner-info2 img{
-    width: 200px;
-    border-radius: 100%;
-    align-items: start;
-}
-
-.banner-info3 img{
-    width: 200px;
-    border-radius: 100%;
-    align-items: end;
+.banner-info h1{
+    margin-top: 10px;
 }
 
 .banner-info img {
@@ -76,16 +58,24 @@ nav{
     width: 330px;
 }
 
+.banner-info2 img{
+    width: 200px;
+    border-radius: 100%;
+    align-items: start;
+}
+
 .banner-info2 img:hover{
     width: 230px;
 }
 
-.banner-info3 img:hover{
-    width: 230px;
+.banner-info3 img{
+    width: 200px;
+    border-radius: 100%;
+    align-items: end;
 }
 
-.banner-info h1{
-    margin-top: 10px;
+.banner-info3 img:hover{
+    width: 230px;
 }
 
 main{
@@ -94,7 +84,6 @@ main{
     padding: 10px;
 }
 
-
 main img{
     width: 50%;
     margin-top: 10px;
@@ -102,7 +91,6 @@ main img{
     margin-left: 25%;
     margin-right: 50%;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-
 }
 
 main div h3{
@@ -142,3 +130,10 @@ footer{
     background-color: skyblue; 
 }
 
+body{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Kanit",sans-serif;
+}
