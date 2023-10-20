@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -61,7 +61,7 @@ nav{
 .banner-info2 img{
     width: 200px;
     border-radius: 100%;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .banner-info2 img:hover{
@@ -96,6 +96,7 @@ main img{
 main div h3{
     padding: 20px;
     text-align: center;
+    text-decoration: underline;
 }
 
 main li{
