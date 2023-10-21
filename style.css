@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  .banner-info4 li{
+    font-size: 12px;
+  }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +28,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: black;
 }
 
 .head {
@@ -132,6 +144,7 @@ footer{
 
 .banner-info5{
     background-color: #e55a61;
+    
 }
 
 .banner-info6{
